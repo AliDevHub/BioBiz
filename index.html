@@ -8,6 +8,7 @@
     <title>BioBiz - Accelerating India’s Sustainability through Biomass</title>
     <link rel="icon" href="images/biobiz-1-150x150.png" sizes="32x32">
     <link rel="icon" href="images/biobiz-1.png" sizes="192x192">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <script src="https://kit.fontawesome.com/b86962700e.js" crossorigin="anonymous"></script>
@@ -16,232 +17,272 @@
 </head>
 
 <body>
-    <header id="header">
-        <div class="d-flex align-items-center justify-content-between px-4">
-            <div class="logo">
-                <a href="#" class="d-block">
-                    <img src="images/biobiz-logo.png" alt="BicBiz logo">
-                </a>
-            </div>
-            <nav id="nav">
-                <ul class="links d-flex">
-                    <li class="link"><a href="#" class="active">Home</a></li>
-                    <li class="link"><a href="#">About</a></li>
-                    <li class="link"><a href="#">India updates</a></li>
-                    <li class="link"><a href="#">Opportunities</a></li>
-                    <li class="link"><a href="#">BioBiz Consulting</a></li>
-                    <li class="link"><a href="#">Innovation Insights</a></li>
-                    <li class="link"><a href="#">Insights <i class="fa-solid fa-angle-down"></i></a>
-                        <div class="dropdwon">
-                            <ul>
-                                <li class="link"><a href="#">Bioenergy</a></li>
-                                <li class="link"><a href="#">Environmental Solutions</a></li>
-                                <li class="link"><a href="#">Bio Products</a></li>
-                                <li class="link"><a href="#">Bio-based Science & Tech Pathways</a></li>
-                                <li class="link"><a href="#">Regional Biomass Residues</a></li>
-                                <li class="link"><a href="#">India Biomass Residues</a></li>
-                                <li class="link"><a href="#">Indian Bioeconomy</a></li>
-                            </ul>
-                        </div>
-                    </li>
-                    <li class="link"><a href="#">BRING</a></li>
-                    <li class="link"><a href="#">Contact</a></li>
-                </ul>
-            </nav>
-            <div class="hamber-icon d-none"><i class="fa-solid fa-bars"></i></div>
-        </div>
-    </header> 
-    <main>
-        <section class="hero-s">
-            <div class="video-tag">
-                <video src="video/video.mp4" autoplay muted loop></video>
-            </div>
-        </section>
-        <section class="main-s">
-            <h2 class="heading-f">BIOBIZ</h2>
-            <div class="row justify-content-between align-items-center">
-                <div class="col-12 col-md-5">
-                    <div class="main-conten d-flex flex-column">
-                        <h1 class="heading-f fw-7 text-white m-0">Our Main Sections</h1>
-                        <div class="para d-flex flex-column">
-                            <p class="text-white m-0">At BioBiz, we are keen to capitalize on India’s rich biodiversity
-                                and the availability of large amounts of biomass residues to develop a
-                                sustainable bio-economy and attractive business opportunities
-                                for diverse stakeholders – farmers, rural stakeholders,
-                                end-use industries, entrepreneurs / startups, and
-                                financial investors.</p>
-                            <p class="text-white m-0">As part of a leading climate tech consulting firm, we will provide
-                                critical assistance with market intelligence, data-driven analyses, professional
-                                networking, and opportunities for relevant stakeholders to get effective visibility. 
-                            </p>
-                        </div>
-                    </div>
+    <div id="main">
+        <header id="header">
+            <div class="d-flex align-items-center justify-content-between px-4">
+                <div class="logo">
+                    <a href="#" class="d-block">
+                        <img src="images/biobiz-logo.png" alt="BicBiz logo">
+                    </a>
                 </div>
-                <div class="col-12 col-md-7">
-                    <div class="boxs d-flex justify-content-around">
-                        <div class="box col-sm-12">
-                            <img src="images/opportunity.png" alt="opportunity-icon">
-                            <a class="text-white text-decoration-none" href="#">Opertunities</a>
-                        </div>
-                        <div class="box">
-                            <img src="images/consulting.png" alt="consulting-icon">
-                            <a class="text-white text-decoration-none" href="#">Consulting</a>
-                        </div>
-                        <div class="box">
-                            <img src="images/insights.png" alt="insights-icon">
-                            <a class="text-white text-decoration-none" href="#">Insights</a>
-                        </div>
-                        <div class="box">
-                            <img src="images/innovations.png" alt="innovations-icon">
-                            <a class="text-white text-decoration-none" href="#">Innovation Insights</a>
-                        </div>
-                        <div class="box">
-                            <img src="images/leaf.png" alt="leaf-icon">
-                            <a class="text-white text-decoration-none text-center" href="#">Biomass Residue
-                                Intelligence</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-         <section class="other-s">
-            <h2 class="heading-f">BIOBIZ</h2>
-            <div class="row justify-content-between">
-                <div class="col-12 col-md-6 col-xl-6">
-                    <div class="other-content d-flex flex-column">
-                        <h2 class="heading-f fw-7 text-white m-0">Other Sections</h2>
-                        <p class="text-white">BioBiz is a division of <a class="text-decoration-none" href="#">Energy
-                                Alternatives India (EAI)</a></p>
-                        <div class="other-links d-flex flex-column">
-                            <a href="" class="text-decoration-none d-flex">
-                                <div class="link">Bring <i
-                                        class="fa-solid fa-angle-right d-flex align-items-center justify-content-center"></i>
-                                </div>
-                            </a>
-                            <a href="" class="text-decoration-none d-flex">
-                                <div class="link">India Updates <i
-                                        class="fa-solid fa-angle-right d-flex align-items-center justify-content-center"></i>
-                                </div>
-                            </a>
-                            <a href="" class="text-decoration-none d-flex">
-                                <div class="link">Weekly Updates <i
-                                        class="fa-solid fa-angle-right d-flex align-items-center justify-content-center"></i>
-                                </div>
-                            </a>
-                            <a href="" class="text-decoration-none d-flex">
-                                <div class="link">India Biomass Residues <i
-                                        class="fa-solid fa-angle-right d-flex align-items-center justify-content-center"></i>
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 col-md-5 col-xl-4">
-                    <div class="india-up d-flex flex-column">
-                        <h2 class="heading-f fw-7 text-center">India updates</h2>
-                        <div class="conten-container">
-                            <ul class="m-0 p-0">
-                                <li><a href="#" class="text-decoration-none">Biofuel from Carbon Dioxide: New Tech Developed by IIT Guwahati</a></li>
-                                <li><a href="#" class="text-decoration-none">Biodiesel Deliveries: Aemetis India Completes $103 Million to OMCs</a>
-                                </li>
-                                <li><a href="#" class="text-decoration-none">Green Hydrogen: TKIL Partners with Sohhytec</a></li>
-                                <li><a href="#" class="text-decoration-none">Biobutanol Production: Godavari Biorefineries Partners with Catalyxx</a>
-                                </li>
-                                <li><a href="#" class="text-decoration-none">Compressed Biogas Plants Using Cow Dung in Uttar Pradesh</a></li>
-                                <li><a href="#" class="text-decoration-none">Steelmaking with Green Hydrogen: SAIL and John Cockerill India
-                                        Collaborate</a></li>
-                                <li><a href="#" class="text-decoration-none">Sustainable Aviation Fuel Facility: BPCL to Launch India’s First by
-                                        2027</a></li>
-                                <li><a href="#" class="text-decoration-none">Green Hydrogen Solutions: NHPC Partners with GGGI</a></li>
-                                <li><a href="#" class="text-decoration-none">India’s First Green Hydrogen Fuel Station Built by Amara Raja Infra in
-                                        Leh</a></li>
-                                <li><a href="#" class="text-decoration-none">Waste Disposal Plant in Rudrapur to Generate Biogas</a></li>
-                                <li><a href="#" class="text-decoration-none">Biochar Integration by Tata Steel in India to Reduce Emissions</a></li>
-                                <li><a href="#" class="text-decoration-none">India’s First Cowshed with Integrated CBG Plant Opens in Gwalior</a>
-                                </li>
-                                <li><a href="#" class="text-decoration-none">Biochar Use in Steelmaking Explored as IIT (ISM) Dhanbad Partners with
-                                        sentra.world</a></li>
-                                <li><a href="#" class="text-decoration-none">Ethanol Plant by Kisan Cooperative Sugar Mill in Pilibhit</a></li>
-                                <li><a href="#" class="text-decoration-none">World’s Largest Sustainable Aviation Fuel Plants By TruAlt</a></li>
-                                <li><a href="#" class="text-decoration-none">Biofuel production from Seaweed Biomass: HPCL partners with Sea6
-                                        Energy</a></li>
-                                <li><a href="#" class="text-decoration-none">Green Hydrogen Plant in Baddi: Oil India and Himachal Pradesh Power
-                                        Corporation partner</a></li>
-                                <li><a href="#" class="text-decoration-none">Bio-CNG Plants in 2 Cow Shelters by Greater Noida Authority</a></li>
-                                <li><a href="#" class="text-decoration-none">Biogas Plant to Be Revived by Faridabad Municipal Corporation</a></li>
-                                <li><a href="#" class="text-decoration-none">Straw-Based Biogas Plant Commercialization</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                    <div class="other-links d-flex flex-column pt-4">
-                        <a href="" class="text-decoration-none d-flex align-self-end">
-                            <div class="link">Bring 
-                                <i class="fa-solid fa-angle-right d-flex align-items-center justify-content-center"></i>
+                <nav id="nav">
+                    <ul class="links d-flex">
+                        <li class="link"><a href="#" class="active">Home</a></li>
+                        <li class="link"><a href="#">About</a></li>
+                        <li class="link"><a href="#">India updates</a></li>
+                        <li class="link"><a href="#">Opportunities</a></li>
+                        <li class="link"><a href="#">BioBiz Consulting</a></li>
+                        <li class="link"><a href="#">Innovation Insights</a></li>
+                        <li class="link"><a href="#">Insights <i class="fa-solid fa-angle-down"></i></a>
+                            <div class="dropdwon">
+                                <ul>
+                                    <li class="link"><a href="#">Bioenergy</a></li>
+                                    <li class="link"><a href="#">Environmental Solutions</a></li>
+                                    <li class="link"><a href="#">Bio Products</a></li>
+                                    <li class="link"><a href="#">Bio-based Science & Tech Pathways</a></li>
+                                    <li class="link"><a href="#">Regional Biomass Residues</a></li>
+                                    <li class="link"><a href="#">India Biomass Residues</a></li>
+                                    <li class="link"><a href="#">Indian Bioeconomy</a></li>
+                                </ul>
                             </div>
-                        </a>
-                    </div>
-                </div>
+                        </li>
+                        <li class="link"><a href="#">BRING</a></li>
+                        <li class="link"><a href="#">Contact</a></li>
+                    </ul>
+                </nav>
+                <div class="hamber-icon d-none"><i class="fa-solid fa-bars"></i></div>
             </div>
-        </section>
-    </main>
-    <footer class="footer bg-white">
-        <h2 class="heading-f">BIOBIZ</h2>
-        <div class="row justify-content-between">
-            <div class="col-12 col-md-4">
-                <div class="px-3">
-                    <div class="logo">
-                        <a href="#" class="d-block">
-                            <img class="footer-logo" src="images/biobiz-logo.png" alt="BicBiz logo">
-                        </a>
-                    </div>
-                    <p>Your go-to hub for all things related to bioenergy. Stay updated with the latest news, insights, and trends in the sustainable bioeconomy. </p>
-                    <div class="social-links d-flex align-items-start">
-                        <a href="#" class="icon d-flex align-items-center justify-content-center"><i class="fa-brands fa-whatsapp"></i></a>
-                        <a href="#" class="icon d-flex align-items-center justify-content-center"><i class="fa-brands fa-facebook-f"></i></a>
-                        <a href="#" class="icon d-flex align-items-center justify-content-center"><i class="fa-brands fa-linkedin-in"></i></a>
-                        <a href="#" class="icon d-flex align-items-center justify-content-center"><i class="fa-regular fa-envelope"></i>
-                        </a>
-                    </div>
+        </header>
+        <main>
+            <section class="hero-s">
+                <div class="video-tag">
+                    <video src="video/video.mp4" autoplay muted loop></video>
                 </div>
-            </div>
-            <div class="col-12 col-md-6 pt-4">
-                <div class="row footer-p">
-                    <div class="col-12 col-sm-6 col-md-6">
-                        <h2 class="heading-f fw-7 text-black">Quick Links</h2>
-                        <div class="footer-links">
-                            <a href="#">learn about  us</a>
-                            <a href="#">Insights</a>
-                            <a href="#">Innovation Insights</a>
-                            <a href="#">BioBiz Consulting</a>
-                            <a href="#">Opportunities</a>
+            </section>
+            <section class="main-s">
+                <h2 class="heading-f">BIOBIZ</h2>
+                <div class="row justify-content-between align-items-center">
+                    <div class="col-12 col-md-5">
+                        <div class="main-conten d-flex flex-column">
+                            <h1 class="heading-f fw-7 text-white m-0">Our Main Sections</h1>
+                            <div class="para d-flex flex-column">
+                                <p class="text-white m-0">At BioBiz, we are keen to capitalize on India’s rich
+                                    biodiversity
+                                    and the availability of large amounts of biomass residues to develop a
+                                    sustainable bio-economy and attractive business opportunities
+                                    for diverse stakeholders – farmers, rural stakeholders,
+                                    end-use industries, entrepreneurs / startups, and
+                                    financial investors.</p>
+                                <p class="text-white m-0">As part of a leading climate tech consulting firm, we will
+                                    provide
+                                    critical assistance with market intelligence, data-driven analyses, professional
+                                    networking, and opportunities for relevant stakeholders to get effective
+                                    visibility. 
+                                </p>
+                            </div>
                         </div>
                     </div>
-                    <div class="col-12 col-sm-6 col-md-6">
-                        <h2 class="heading-f fw-7 text-black">Address</h2>
-                        <div class="address">
-                            <p>A5C, Anugraha Apartments</p>
-                            <p>No 41, Nungambakkam High Road</p>
-                            <p>Nungambakkam</p>
-                            <p>Chennai – 600034, Tamil Nadu, India</p>
-                            <p>Landmark : Building right next to the Taj Coromandel hotel</p>
+                    <div class="col-12 col-md-7">
+                        <div class="boxs d-flex justify-content-around">
+                            <div class="box col-sm-12">
+                                <img src="images/opportunity.png" alt="opportunity-icon">
+                                <a class="text-white text-decoration-none" href="#">Opertunities</a>
+                            </div>
+                            <div class="box">
+                                <img src="images/consulting.png" alt="consulting-icon">
+                                <a class="text-white text-decoration-none" href="#">Consulting</a>
+                            </div>
+                            <div class="box">
+                                <img src="images/insights.png" alt="insights-icon">
+                                <a class="text-white text-decoration-none" href="#">Insights</a>
+                            </div>
+                            <div class="box">
+                                <img src="images/innovations.png" alt="innovations-icon">
+                                <a class="text-white text-decoration-none" href="#">Innovation Insights</a>
+                            </div>
+                            <div class="box">
+                                <img src="images/leaf.png" alt="leaf-icon">
+                                <a class="text-white text-decoration-none text-center" href="#">Biomass Residue
+                                    Intelligence</a>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
-        </div>
-        <div class="sub-footer py-4 mt-4">
+            </section>
+            <section class="other-s">
+                <h2 class="heading-f">BIOBIZ</h2>
+                <div class="row justify-content-between">
+                    <div class="col-12 col-md-6 col-xl-6">
+                        <div class="other-content d-flex flex-column">
+                            <h2 class="heading-f fw-7 text-white m-0">Other Sections</h2>
+                            <p class="text-white">BioBiz is a division of <a class="text-decoration-none"
+                                    href="#">Energy
+                                    Alternatives India (EAI)</a></p>
+                            <div class="other-links d-flex flex-column">
+                                <a href="" class="text-decoration-none d-flex">
+                                    <div class="link">Bring <i
+                                            class="fa-solid fa-angle-right d-flex align-items-center justify-content-center"></i>
+                                    </div>
+                                </a>
+                                <a href="" class="text-decoration-none d-flex">
+                                    <div class="link">India Updates <i
+                                            class="fa-solid fa-angle-right d-flex align-items-center justify-content-center"></i>
+                                    </div>
+                                </a>
+                                <a href="" class="text-decoration-none d-flex">
+                                    <div class="link">Weekly Updates <i
+                                            class="fa-solid fa-angle-right d-flex align-items-center justify-content-center"></i>
+                                    </div>
+                                </a>
+                                <a href="" class="text-decoration-none d-flex">
+                                    <div class="link">India Biomass Residues <i
+                                            class="fa-solid fa-angle-right d-flex align-items-center justify-content-center"></i>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-5 col-xl-4">
+                        <div class="india-up d-flex flex-column">
+                            <h2 class="heading-f fw-7 text-center">India updates</h2>
+                            <div class="conten-container">
+                                <ul class="m-0 p-0">
+                                    <li><a href="#" class="text-decoration-none">Biofuel from Carbon Dioxide: New Tech
+                                            Developed by IIT Guwahati</a></li>
+                                    <li><a href="#" class="text-decoration-none">Biodiesel Deliveries: Aemetis India
+                                            Completes $103 Million to OMCs</a>
+                                    </li>
+                                    <li><a href="#" class="text-decoration-none">Green Hydrogen: TKIL Partners with
+                                            Sohhytec</a></li>
+                                    <li><a href="#" class="text-decoration-none">Biobutanol Production: Godavari
+                                            Biorefineries Partners with Catalyxx</a>
+                                    </li>
+                                    <li><a href="#" class="text-decoration-none">Compressed Biogas Plants Using Cow Dung
+                                            in Uttar Pradesh</a></li>
+                                    <li><a href="#" class="text-decoration-none">Steelmaking with Green Hydrogen: SAIL
+                                            and John Cockerill India
+                                            Collaborate</a></li>
+                                    <li><a href="#" class="text-decoration-none">Sustainable Aviation Fuel Facility:
+                                            BPCL to Launch India’s First by
+                                            2027</a></li>
+                                    <li><a href="#" class="text-decoration-none">Green Hydrogen Solutions: NHPC Partners
+                                            with GGGI</a></li>
+                                    <li><a href="#" class="text-decoration-none">India’s First Green Hydrogen Fuel
+                                            Station Built by Amara Raja Infra in
+                                            Leh</a></li>
+                                    <li><a href="#" class="text-decoration-none">Waste Disposal Plant in Rudrapur to
+                                            Generate Biogas</a></li>
+                                    <li><a href="#" class="text-decoration-none">Biochar Integration by Tata Steel in
+                                            India to Reduce Emissions</a></li>
+                                    <li><a href="#" class="text-decoration-none">India’s First Cowshed with Integrated
+                                            CBG Plant Opens in Gwalior</a>
+                                    </li>
+                                    <li><a href="#" class="text-decoration-none">Biochar Use in Steelmaking Explored as
+                                            IIT (ISM) Dhanbad Partners with
+                                            sentra.world</a></li>
+                                    <li><a href="#" class="text-decoration-none">Ethanol Plant by Kisan Cooperative
+                                            Sugar Mill in Pilibhit</a></li>
+                                    <li><a href="#" class="text-decoration-none">World’s Largest Sustainable Aviation
+                                            Fuel Plants By TruAlt</a></li>
+                                    <li><a href="#" class="text-decoration-none">Biofuel production from Seaweed
+                                            Biomass: HPCL partners with Sea6
+                                            Energy</a></li>
+                                    <li><a href="#" class="text-decoration-none">Green Hydrogen Plant in Baddi: Oil
+                                            India and Himachal Pradesh Power
+                                            Corporation partner</a></li>
+                                    <li><a href="#" class="text-decoration-none">Bio-CNG Plants in 2 Cow Shelters by
+                                            Greater Noida Authority</a></li>
+                                    <li><a href="#" class="text-decoration-none">Biogas Plant to Be Revived by Faridabad
+                                            Municipal Corporation</a></li>
+                                    <li><a href="#" class="text-decoration-none">Straw-Based Biogas Plant
+                                            Commercialization</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="other-links d-flex flex-column pt-4">
+                            <a href="" class="text-decoration-none d-flex align-self-end">
+                                <div class="link">Bring
+                                    <i
+                                        class="fa-solid fa-angle-right d-flex align-items-center justify-content-center"></i>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <footer class="footer bg-white">
+            <h2 class="heading-f">BIOBIZ</h2>
             <div class="row justify-content-between">
-                <div class="col-12 col-sm-6 col-md-6 fw-bolder">Copyright © 2024 BioBiz. All rights reserved.</div>
-                <div class="col-12 col-sm-6 col-md-6">
-                    <span class="float-sm-end">
-                        <a href="#" class="text-decoration-none text-black" >Terms & Conditions</a> 
-                        | 
-                        <a href="#" class="text-decoration-none text-black" >Privacy Policy</a>
-                    </span>
+                <div class="col-12 col-md-4">
+                    <div class="px-3">
+                        <div class="logo">
+                            <a href="#" class="d-block">
+                                <img class="footer-logo" src="images/biobiz-logo.png" alt="BicBiz logo">
+                            </a>
+                        </div>
+                        <p>Your go-to hub for all things related to bioenergy. Stay updated with the latest news,
+                            insights, and trends in the sustainable bioeconomy. </p>
+                        <div class="social-links d-flex align-items-start">
+                            <a href="#" class="icon d-flex align-items-center justify-content-center"><i
+                                    class="fa-brands fa-whatsapp"></i></a>
+                            <a href="#" class="icon d-flex align-items-center justify-content-center"><i
+                                    class="fa-brands fa-facebook-f"></i></a>
+                            <a href="#" class="icon d-flex align-items-center justify-content-center"><i
+                                    class="fa-brands fa-linkedin-in"></i></a>
+                            <a href="#" class="icon d-flex align-items-center justify-content-center"><i
+                                    class="fa-regular fa-envelope"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 pt-4">
+                    <div class="row footer-p">
+                        <div class="col-12 col-sm-6 col-md-6">
+                            <h2 class="heading-f fw-7 text-black">Quick Links</h2>
+                            <div class="footer-links">
+                                <a href="#">learn about us</a>
+                                <a href="#">Insights</a>
+                                <a href="#">Innovation Insights</a>
+                                <a href="#">BioBiz Consulting</a>
+                                <a href="#">Opportunities</a>
+                            </div>
+                        </div>
+                        <div class="col-12 col-sm-6 col-md-6">
+                            <h2 class="heading-f fw-7 text-black">Address</h2>
+                            <div class="address">
+                                <p>A5C, Anugraha Apartments</p>
+                                <p>No 41, Nungambakkam High Road</p>
+                                <p>Nungambakkam</p>
+                                <p>Chennai – 600034, Tamil Nadu, India</p>
+                                <p>Landmark : Building right next to the Taj Coromandel hotel</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div>
-    </footer>
+            <div class="sub-footer py-4 mt-4">
+                <div class="row justify-content-between">
+                    <div class="col-12 col-sm-6 col-md-6 fw-bolder">Copyright © 2024 BioBiz. All rights reserved.</div>
+                    <div class="col-12 col-sm-6 col-md-6">
+                        <span class="float-sm-end">
+                            <a href="#" class="text-decoration-none text-black">Terms & Conditions</a>
+                            |
+                            <a href="#" class="text-decoration-none text-black">Privacy Policy</a>
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"
+        integrity="sha512-16esztaSRplJROstbIIdwX3N97V1+pZvV33ABoG1H2OyTttBxEGkTsoIVsiP1iaTtM8b3+hu2kB6pQ4Clr5yug=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"
+        integrity="sha512-Ic9xkERjyZ1xgJ5svx3y0u3xrvfT/uPkV99LBwe68xjy/mGtO+4eURHZBW2xW4SZbFrF1Tf090XqB+EVgXnVjw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="js/script.js"></script>
 </body>
+
 </html>

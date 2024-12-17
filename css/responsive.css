@@ -1,17 +1,16 @@
 @media (max-width: 991.98px) {
+
+    /* ----Header-Tablets---- */
     .hamber-icon{
         display: block !important;
         font-size: 32px;
         padding-right: 10px;
     }
-
-
     nav.toggle{
         visibility: visible;
         opacity: 1;
         transition: all 0.4s ease-in-out;
     }
-
     header nav {
         visibility: hidden;
         opacity: 0;
@@ -26,7 +25,6 @@
         transform: translate(60%, 20px);
         border-radius: 24px;
     }
-
     .dropdwon {
         position: absolute;
         top: 51px;
@@ -41,7 +39,6 @@
         visibility: hidden;
         opacity: 0;
     }
-
     nav .links{
         flex-direction: column;
         gap: 0;
@@ -82,7 +79,7 @@
     /* ----Other-Section-Tablets---- */
     .other-s {
         padding: 0;
-        margin-top: 40px;
+        margin-top: 50px;
     }
     .other-s > h2{
         position: absolute;
@@ -138,17 +135,17 @@
 
 @media (max-width: 767.98px) {
 
-        /* ----Header-Phones---- */
+    /* ----Header-Tablets---- */
 
-        #header{
-            height: 70px;
-        }
-        #header .logo {
-            width: 200px;
-        }
-        #header .logo img {
-            width: 80%;
-        }
+    #header{
+        height: 70px;
+    }
+    #header .logo {
+        width: 200px;
+    }
+    #header .logo img {
+        width: 80%;
+    }
 
     /* ----Main-Section-Tablets---- */
     .main-s .row{
@@ -163,6 +160,10 @@
     }
 
     /* ----Other-Section-Tablets---- */
+    .other-s {
+        padding: 0;
+        margin-top: 40px;
+    }
     .other-s .row{
         gap: 40px;
     }
@@ -243,7 +244,7 @@
     /* ----Other-Section-Phones---- */
     .other-s {
         padding: 0;
-        margin-top: 30px;
+        margin-top: 60px;
     }
     .other-s > h2{
         display: none;
